@@ -331,7 +331,8 @@ function install(editor) {
 }
 var index = {
   name: 'task',
-  install: install
+  install: install,
+  Task: Task
 };
 
 export { Task, index as default };

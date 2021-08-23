@@ -335,7 +335,8 @@ function install(editor) {
 }
 var index = {
   name: 'task',
-  install: install
+  install: install,
+  Task: Task
 };
 
 exports.Task = Task;

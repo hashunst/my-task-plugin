@@ -29,5 +29,6 @@ function install(editor) {
 export { Task } from './task';
 export default {
     name: 'task',
-    install
+    install,
+    Task
 }
