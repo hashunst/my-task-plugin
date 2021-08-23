@@ -1,4 +1,4 @@
-function install(editor, params) {
+function install(/** editor, params*/) {
     console.log('Rete.js plugin boilerplate')
 }
 
