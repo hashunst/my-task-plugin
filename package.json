@@ -1,0 +1,23 @@
+{
+  "name": "rete-my-task-plugin",
+  "version": "0.1.0",
+  "description": "",
+  "main": "build/my-task-plugin.common.js",
+  "module": "build/my-task-plugin.esm.js",
+  "scripts": {
+    "build": "rete --build rete.config.js",
+    "build:dev": "rete --build rete.config.js --watch",
+    "prepublishOnly": "npm run build",
+    "prebuild": "npm run lint",
+    "lint": "tsc && eslint src"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.14.1",
+    "rete-cli": "0.6.1-rc2",
+    "typescript": "^3.3.3333"
+  }
+}
